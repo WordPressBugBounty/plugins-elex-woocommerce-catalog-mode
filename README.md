@@ -1,0 +1,1 @@
+# plugins-elex-woocommerce-catalog-mode
