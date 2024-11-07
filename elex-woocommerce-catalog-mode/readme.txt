@@ -4,7 +4,7 @@ Tags: catalog mode, woocommerce, woocommerce catalog mode, woocommerce catalog o
 Requires at least: 3.0.1
 Tested up to: 6.6
 Requires PHP: 5.6
-Stable tag: 1.4.6
+Stable tag: 1.4.7
 License: GPLv2 or later
 URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -32,7 +32,7 @@ For complete list of latest features and details, please visit <a href="https://
 
 <ul>
 <li> WooCommerce Role based pricing.</li>
-<li> WooCommerce Category Pricing.</li>
+<li> WooCommerce Cateogry Pricing.</li>
 <li> WooCommerce Wholesale Pricing.</li>
 <li> WooCommerce Customer Specific Pricing.</li>
 <li> WooCommerce Request a Quote.</li>
@@ -76,6 +76,9 @@ If you are facing any issues, please create a topic at plugin support section on
 3. That's it! you can now configure the plugin.
 
 == Changelog ==
+= 1.4.7 =
+ Tested OK with WooCommerce 9.3
+
 = 1.4.6 =
 * Fixed Console Error
 
@@ -220,6 +223,9 @@ If you are facing any issues, please create a topic at plugin support section on
 * Initial Push.
 
 == Upgrade Notice ==
+= 1.4.7 =
+ Tested OK with WooCommerce 9.3
+ 
 = 1.4.6 =
 * Fixed Console Error
 
