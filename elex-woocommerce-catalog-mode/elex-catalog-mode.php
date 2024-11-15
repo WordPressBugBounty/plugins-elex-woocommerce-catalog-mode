@@ -3,9 +3,9 @@
 Plugin Name: ELEX WooCommerce Catalog Mode
 Plugin URI: https://elextensions.com/plugin/elex-woocommerce-catalog-mode-plugin-free/
 Description:  Hide Add to Cart option. Also, turn your shop into catalog mode.
-Version: 1.4.7
+Version: 1.4.8
 WC requires at least: 2.6.0
-WC tested up to: 9.3
+WC tested up to: 9.4
 Author: ELEXtensions
 Author URI: https://elextensions.com 
 Developer: ELEXtensions
