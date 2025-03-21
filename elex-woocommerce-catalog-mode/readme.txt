@@ -4,7 +4,7 @@ Tags: catalog mode, woocommerce, woocommerce catalog mode, woocommerce catalog o
 Requires at least: 3.0.1
 Tested up to: 6.7
 Requires PHP: 5.6
-Stable tag: 1.4.8
+Stable tag: 1.4.9
 License: GPLv2 or later
 URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -76,6 +76,9 @@ If you are facing any issues, please create a topic at plugin support section on
 3. That's it! you can now configure the plugin.
 
 == Changelog ==
+= 1.4.9 =
+* Tested OK with WooCommerce 9.7
+
 = 1.4.8 =
 * Tested OK with WordPress 6.7
 * Tested OK with WooCommerce 9.4
@@ -227,6 +230,9 @@ If you are facing any issues, please create a topic at plugin support section on
 * Initial Push.
 
 == Upgrade Notice ==
+= 1.4.9 =
+* Tested OK with WooCommerce 9.7
+
 = 1.4.8 =
 * Tested OK with WordPress 6.7
 * Tested OK with WooCommerce 9.4
