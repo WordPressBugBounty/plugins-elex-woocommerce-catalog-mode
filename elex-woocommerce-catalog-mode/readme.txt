@@ -2,13 +2,13 @@
 Contributors: elextensions
 Tags: catalog mode, woocommerce, woocommerce catalog mode, woocommerce catalog only, hide price
 Requires at least: 3.0.1
-Tested up to: 6.7
+Tested up to: 6.8
 Requires PHP: 5.6
-Stable tag: 1.4.9
+Stable tag: 1.5.0
 License: GPLv2 or later
 URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Do you wish to easily convert your WooCommerce store into a catalog mode? Here’s the most effective and efficient WooCommerce Catalog Mode plugin that solves your exact issues.
+Easily turn your WooCommerce store into catalog mode with the best plugin designed for efficiency and effectiveness.
 
 == Description ==
 
@@ -76,6 +76,10 @@ If you are facing any issues, please create a topic at plugin support section on
 3. That's it! you can now configure the plugin.
 
 == Changelog ==
+= 1.5.0 =
+* Tested OK with WordPress 6.8
+* Tested OK with WooCommerce 9.8
+
 = 1.4.9 =
 * Tested OK with WooCommerce 9.7
 
@@ -230,6 +234,10 @@ If you are facing any issues, please create a topic at plugin support section on
 * Initial Push.
 
 == Upgrade Notice ==
+= 1.5.0 =
+* Tested OK with WordPress 6.8
+* Tested OK with WooCommerce 9.8
+
 = 1.4.9 =
 * Tested OK with WooCommerce 9.7
 
