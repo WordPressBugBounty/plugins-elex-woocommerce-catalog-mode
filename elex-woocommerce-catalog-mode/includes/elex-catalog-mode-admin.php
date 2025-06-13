@@ -333,17 +333,20 @@ class Elex_CM_Price_Discount_Admin {
 		$cart_text_content = $text;
 		global $product;
 		$product_id = $this->elex_cm_get_product_id( $product );
-		$button_text_product_page = $product->get_meta( 'product_adjustment_customize_addtocart_prod_btn_text_catalog' );
-		$product_button_text_checkbox = $product->get_meta( 'product_adjustment_customize_addtocart_catalog' );
-		
-		if ( 'yes' == $product_button_text_checkbox && '' != $button_text_product_page ) {
-			if ( ! ( $product->get_meta( 'product_adjustment_exclude_admin_catalog' ) == 'yes' && 'administrator' == $this->current_user_role ) ) {
-				$cart_text_content = $button_text_product_page;
-			}
-		} else if ( $this->replace_add_to_cart_catalog && '' != $this->replace_add_to_cart_button_text_product_catalog ) {
-			if ( ! ( get_option( 'eh_pricing_discount_price_catalog_mode_exclude_admin' ) == 'yes' && 'administrator' == $this->current_user_role ) ) {
-				$cart_text_content = $this->replace_add_to_cart_button_text_product_catalog;
-			   
+		if ( ! empty( $product ) ) {
+
+			$button_text_product_page = $product->get_meta( 'product_adjustment_customize_addtocart_prod_btn_text_catalog' );
+			$product_button_text_checkbox = $product->get_meta( 'product_adjustment_customize_addtocart_catalog' );
+			
+			if ( 'yes' == $product_button_text_checkbox && '' != $button_text_product_page ) {
+				if ( ! ( $product->get_meta( 'product_adjustment_exclude_admin_catalog' ) == 'yes' && 'administrator' == $this->current_user_role ) ) {
+					$cart_text_content = $button_text_product_page;
+				}
+			} else if ( $this->replace_add_to_cart_catalog && '' != $this->replace_add_to_cart_button_text_product_catalog ) {
+				if ( ! ( get_option( 'eh_pricing_discount_price_catalog_mode_exclude_admin' ) == 'yes' && 'administrator' == $this->current_user_role ) ) {
+					$cart_text_content = $this->replace_add_to_cart_button_text_product_catalog;
+				
+				}
 			}
 		}
 		$cart_text_content = $this->elex_cm_return_wpml_string( $cart_text_content, 'Replace Add-to-cart - Product' );
