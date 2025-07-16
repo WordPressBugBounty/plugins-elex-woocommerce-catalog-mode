@@ -469,7 +469,7 @@ class Elex_CM_Price_Discount_Admin {
 		if ( empty( $product ) ) {
 			return 'not a valid object';
 		}
-		if ( WC()->version < '2.7.0' ) {
+		if ( version_compare( WC()->version, '2.7.0', '<' ) ) {
 			$product_type = $product->product_type;
 		} else {
 			$product_type = $product->get_type();
@@ -481,8 +481,8 @@ class Elex_CM_Price_Discount_Admin {
 		if ( empty( $product ) ) {
 			return 'not a valid object';
 		}
-		if ( WC()->version < '2.7.0' ) {
-			$product_id = $product->post->id;
+		if ( version_compare( WC()->version, '2.7.0', '<' ) ) {
+			$product_id = $product->post->ID;
 		} else {
 			$product_id = $product->get_id();
 		}
@@ -493,8 +493,8 @@ class Elex_CM_Price_Discount_Admin {
 		if ( empty( $product ) ) {
 			return 'not a valid object';
 		}
-		if ( WC()->version < '2.7.0' ) {
-			$product_parent_id = $product->parent->id;
+		if ( version_compare( WC()->version, '2.7.0', '<' ) ) {
+			$product_parent_id = $product->parent->ID;
 		} else {
 			$product_parent_id = $product->get_parent_id();
 		}
