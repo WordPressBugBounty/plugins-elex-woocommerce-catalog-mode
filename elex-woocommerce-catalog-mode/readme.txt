@@ -2,9 +2,9 @@
 Contributors: elextensions
 Tags: catalog mode, woocommerce, woocommerce catalog mode, woocommerce catalog only, hide price
 Requires at least: 3.0.1
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 5.6
-Stable tag: 1.5.2
+Stable tag: 1.5.3
 License: GPLv2 or later
 URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -76,6 +76,10 @@ If you are facing any issues, please create a topic at plugin support section on
 3. That's it! you can now configure the plugin.
 
 == Changelog ==
+
+= 1.5.3 =
+* Made compatible with WordPress 6.9
+
 = 1.5.2 =
 * Tested OK with Woocommerce 10
 
@@ -240,6 +244,10 @@ If you are facing any issues, please create a topic at plugin support section on
 * Initial Push.
 
 == Upgrade Notice ==
+
+= 1.5.3 =
+* Made compatible with WordPress 6.9
+
 = 1.5.2 =
 * Tested OK with Woocommerce 10
 
